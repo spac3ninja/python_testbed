@@ -16,7 +16,7 @@ game_valid = True # is necessary to be defined because the while condition is ot
 ## A welcome message is displayed at the start of a new game:
 print("------------------------------------\nHi! Let's play wordle! (You can end the game at any point by entering \"eeeee\").")
 ## A while condition is defined: 
-while attempt < 6 and player_input != word and game_valid == True: # As longer as the player has had less than six attempts, has not guessed the word or has not aborted the game, the game can run
+while attempt < 6 and player_input != word and game_valid == True: # As long as the player has had less than six attempts, has not guessed the word or has not aborted, the game can run
     answer = ["⬛","⬛","⬛","⬛","⬛"] # inital answer list 
     player_input = input("Enter a five letter word: ") # player input is requested and stored
     ## Verification checks
