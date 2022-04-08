@@ -1,3 +1,11 @@
+###############
+
+
+## This is an older version of my wordle game. 
+## It is not functioning as I wanted it to, so I made some changes (therefore, see wordle2.py)
+
+
+################
 #from multiprocessing.connection import answer_challenge
 import random
 import csv 
