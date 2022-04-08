@@ -2,7 +2,7 @@ import random # package is required to select a random word to be guessed by the
 import csv # package is required to import and read a csv file that contains all possible five letter words
 
 ## A csv file containing five letter words is imported:
-csv_reader = csv.reader(open('/Users/timgust/OneDrive - stud.hs-bremen.de/Pi42/five_letter_words.csv', 'r'))
+csv_reader = csv.reader(open('five_letter_words.csv', 'r')) # add local file path here
 five_letter_words = list(csv_reader) # the five letter words are stored in a list for further processing
 random_word = random.choice(five_letter_words) # from the word list, a random word is selected
 word = random_word[0] # in order to be able to use the chosen word, it must be extracted from the random_word list
